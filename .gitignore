@@ -7,4 +7,7 @@
 *.zip
 *.docx
 *.pt
+*.csv
 /Tutorial_Assignment3.pdf
+/data/
+/.idea/
