@@ -1,0 +1,10 @@
+/.pytest_cache/
+/assign3-fangcong/
+/png/
+/trained_models/
+/trial/
+*.png
+*.zip
+*.docx
+*.pt
+/Tutorial_Assignment3.pdf
