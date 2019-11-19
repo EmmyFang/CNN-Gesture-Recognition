@@ -1,6 +1,14 @@
 # CNN-Gesture-Recognition
 Note: This is a course project of MIE324 at University of Toronto (year 2018). If you are a student of this course and find this project is similar to one of the projects you got, please contact me and I will make this repository private. Thank you!
 
+This project builds and trains several convolutional neural nets aiming to classify the 26 letters of English alphabet drawn by moving smartphones (recorded by the accelerometer and gyroscope of the phone). 
+
+
+### Data 
+All students enrolled in MIE324 course moved their smartphones to draw the 26 letters of English alphabet for five times each. The motions (gestures) were recorded by the accelerometer and gyroscope of the phone. 
+The acceleration and angular velocity measured along the x, y, z axes sampled with a frequency of 50 Hz (100 samples in 2 seconds). 
+
+
 ## main.py
 run main.py to load data and start training the classifier 
 
@@ -8,10 +16,6 @@ run main.py to load data and start training the classifier
 1. python3.6
 2. numpy, matplotlib, pytorch, pandas, scikit-learn, scipy 
 
-
-### Data 
-All students enrolled in MIE324 course moved their smartphones to draw the 26 letters of English alphabet for five times each. The motions (gestures) were recorded by the accelerometer and gyroscope of the phone. 
-The acceleration and angular velocity measured along the x, y, z axes sampled with a frequency of 50 Hz (100 samples in 2 seconds). 
 
 ### csv2numpy.py 
 It walks through the directory that stores the data and parse the data into the sensor values array (instances.npy) and the label for each instance (label.npy)
