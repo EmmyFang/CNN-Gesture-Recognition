@@ -10,21 +10,18 @@
 '''
 
 import argparse
-from time import time
 import string
 import numpy as np
 import pandas as pd
-from sklearn.preprocessing import LabelEncoder, OneHotEncoder
 from sklearn.model_selection import train_test_split
 from scipy.signal import savgol_filter
 
 import torch
-from torch.autograd import Variable
 from torch.utils.data import DataLoader
 from dataset import Gestures
 from model import Net
 import matplotlib.pyplot as plt
-import random
+
 # instances_n = np.load('./data/normalized_data.npy')
 instances_n = np.load('./data/instances.npy')
 # instances_n = np.delete(instances_n,[2], axis = 2) # drop Az
